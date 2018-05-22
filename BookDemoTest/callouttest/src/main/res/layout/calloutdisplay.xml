@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calloutdisplay"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#87CEFA"
+    android:alpha="120"
+
+    >
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/family_photo"
+        android:src="@mipmap/sdust_logo_show_round"
+        android:alpha="120"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/county_name"
+        android:text="@string/point1_test"
+        android:textSize="16sp"
+        android:textColor="#FF000000"
+        android:paddingBottom="5dip"
+        android:alpha="120"/>
+</LinearLayout>
